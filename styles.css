@@ -1,0 +1,111 @@
+
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* HEADER */
+header {
+    background: #fff;
+    padding: 3px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+	margin:5px 10px;
+}
+
+
+header ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+}
+header ul li a {
+    margin-left: 20px;
+	text-decoration: none;
+	color: green;
+	font-size: 20px;
+}
+header ul li a:visited:hover {
+	color: #100344;
+}
+
+/* INICIO */
+.inicio {
+	text-align: center;
+    padding: 60px 50px;
+    background: #f0fdfa; 
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+	margin:20px 10px;
+	color: #148059;
+	font-size: 20px;
+}
+h1 {
+	font-size:45px;
+}
+h2{
+	text-align: center;
+	color: #100344;
+	font-size: 30px;
+}	
+
+/* TARJETAS */
+.tarjeta {
+  margin: 24px;
+  background: white;
+  border-radius: 1rem;
+  padding: 6px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  float:left;
+}
+
+.tarjeta img {
+  margin-bottom: 16px;
+}
+
+.tarjeta h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827; 
+  margin-bottom: 16px;
+}
+
+.tarjeta p {
+  color: #6b7280; 
+  margin-bottom: 16px;
+ 
+}
+
+.precio {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0d9488; 
+}
+/* CONTACTO */
+.contacto {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+	font-size: 1.3rem;
+}
+/* FOOTER */
+footer {
+	text-align: center;
+    background: #100344;
+    color: #fff;
+	clear: both
+}
+
