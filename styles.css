@@ -30,11 +30,11 @@ header ul {
 header ul li a {
     margin-left: 20px;
 	text-decoration: none;
-	color: green;
+	color: rgb(216, 60, 151);
 	font-size: 20px;
 }
 header ul li a:visited:hover {
-	color: #100344;
+	color: #a039b9;
 }
 
 /* INICIO */
@@ -43,9 +43,9 @@ header ul li a:visited:hover {
     padding: 60px 50px;
     background: #f0fdfa; 
     border-radius: 1rem;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px  rgb(216, 60, 151);
 	margin:20px 10px;
-	color: #148059;
+	color: #a039b9;
 	font-size: 20px;
 }
 h1 {
@@ -88,7 +88,7 @@ h2{
 .precio {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #0d9488; 
+  color: #670d94; 
 }
 /* CONTACTO */
 .contacto {
